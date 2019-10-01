@@ -9,7 +9,10 @@ grid = [['.', '.', '.', '.', '.', '.'],
         ['.', 'O', 'O', '.', '.', '.'],
         ['.', '.', '.', '.', '.', '.']]
 
-for a in range(6):
-    for i in range(9):
-        print(grid[i][a], end = '')
+num_rows = len(grid)
+num_cols = len(grid[0])
+
+for col in range(num_cols):
+    for row in range(num_rows):
+        print(grid[row][col], end = '')
     print()
