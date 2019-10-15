@@ -18,7 +18,9 @@ dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
 
 def addToInventory(inventory, addedItems):
     # your code goes here
-    
+
+
+    return inventory
 
 
 inv = {'gold coin': 42, 'rope': 1}
